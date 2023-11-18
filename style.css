@@ -30,4 +30,7 @@ nav {
 .main-content {
   grid-area: main-content;
   background-color: var(--background-color);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 0.6fr;
+  grid-template-rows: repeat(2, 1fr);
 }
