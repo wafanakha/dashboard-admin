@@ -33,4 +33,17 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr) 0.6fr;
   grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "projects projects announcement"
+    "projects projects trending";
+}
+
+.projects {
+  grid-area: projects;
+}
+.announcement {
+  grid-area: announcement;
+}
+.trending {
+  grid-area: trending;
 }
