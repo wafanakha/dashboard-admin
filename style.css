@@ -1,3 +1,8 @@
+:root {
+  --main-color: #16a34a;
+  --shadow-color: rgb(19, 19, 19);
+  --background-color: rgb(230, 238, 246);
+}
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +11,7 @@
 body {
   display: grid;
   height: 100vh;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 0.7fr repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-template-areas:
     "navi profile profile profile"
@@ -16,10 +21,13 @@ body {
 }
 nav {
   grid-area: navi;
+  background-color: var(--main-color);
 }
 .profile {
   grid-area: profile;
+  box-shadow: 0 7px 10px var(--shadow-color);
 }
 .main-content {
   grid-area: main-content;
+  background-color: var(--background-color);
 }
