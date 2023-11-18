@@ -3,3 +3,23 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "navi profile profile profile"
+    "navi main-content main-content main-content"
+    "navi main-content main-content main-content"
+    "navi main-content main-content main-content";
+}
+nav {
+  grid-area: navi;
+}
+.profile {
+  grid-area: profile;
+}
+.main-content {
+  grid-area: main-content;
+}
