@@ -69,6 +69,15 @@ p {
 }
 h4 {
   font-size: smaller;
+  margin-bottom: 1rem;
+}
+.star {
+  margin-top: 2rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+img {
+  margin-left: 5rem;
 }
 .announcement {
   grid-area: announcement;
