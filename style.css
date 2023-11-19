@@ -8,6 +8,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body {
   display: grid;
   height: 100vh;
@@ -36,6 +39,7 @@ nav {
   grid-template-areas:
     "projects projects announcement"
     "projects projects trending";
+  padding: 2rem;
 }
 
 .projects {
