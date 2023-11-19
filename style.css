@@ -45,6 +45,22 @@ nav {
 .projects {
   grid-area: projects;
 }
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-right: 3rem;
+}
+.project {
+  background-color: white;
+  border-radius: 10px;
+  border-left: 0.7rem solid #16a34a;
+  padding: 1.5rem;
+}
 .announcement {
   grid-area: announcement;
 }
