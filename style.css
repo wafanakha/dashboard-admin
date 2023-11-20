@@ -57,6 +57,9 @@ nav h3 {
 .profile {
   grid-area: profile;
   border-bottom: 4px solid var(--shadow-color);
+  display: flex;
+  justify-content: baseline;
+  flex-wrap: wrap;
 }
 .search {
   display: flex;
@@ -64,6 +67,8 @@ nav h3 {
   justify-content: space-between;
   padding-left: 2rem;
   margin-top: 1rem;
+  width: 100%;
+  height: 25%;
 }
 input {
   border: 0;
@@ -80,6 +85,9 @@ input {
   align-items: center;
   gap: 2rem;
   margin-right: 5rem;
+}
+.welcome img {
+  width: 4.5rem;
 }
 .main-content {
   grid-area: main-content;
