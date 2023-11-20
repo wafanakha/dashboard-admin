@@ -8,6 +8,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+img {
+  width: 4rem;
+  border-radius: 50px;
+}
 .logos {
   width: 1.5rem;
 }
