@@ -9,8 +9,12 @@
   box-sizing: border-box;
 }
 img {
-  width: 4rem;
+  margin: 0;
+  width: 3rem;
   border-radius: 50px;
+}
+.profile .logos {
+  width: 2rem;
 }
 .logos {
   width: 1.5rem;
@@ -54,7 +58,29 @@ nav h3 {
   grid-area: profile;
   border-bottom: 4px solid var(--shadow-color);
 }
-
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+input {
+  border: 0;
+  border-radius: 10px;
+  justify-self: baseline;
+  background-color: var(--background-color);
+  height: 1.5rem;
+  width: 40%;
+  margin-left: 1rem;
+  margin-right: 3rem;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 5rem;
+}
 .main-content {
   grid-area: main-content;
   background-color: var(--background-color);
@@ -96,9 +122,6 @@ h4 {
 .star {
   margin-top: 2rem;
   margin-right: 1rem;
-}
-img {
-  margin-left: 5rem;
 }
 .announcement {
   grid-area: announcement;
