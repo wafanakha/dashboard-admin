@@ -20,10 +20,11 @@ img {
   width: 1.5rem;
 }
 h1,
+h2,
 h3,
 p,
 h4 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: roboto, Geneva, Tahoma, sans-serif;
 }
 body {
   display: grid;
@@ -86,8 +87,29 @@ input {
   gap: 2rem;
   margin-right: 5rem;
 }
+.welcome {
+  padding-left: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.welcome-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.welcome p {
+  color: black;
+  font-weight: bold;
+}
+.edit {
+  display: flex;
+  align-items: center;
+}
 .welcome img {
   width: 4.5rem;
+  height: auto;
 }
 .main-content {
   grid-area: main-content;
