@@ -111,6 +111,18 @@ input {
   width: 4.5rem;
   height: auto;
 }
+.edit {
+  padding-top: 1rem;
+  padding-right: 5rem;
+  display: flex;
+  gap: 2rem;
+}
+.edit div {
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
 .main-content {
   grid-area: main-content;
   background-color: var(--background-color);
