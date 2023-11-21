@@ -1,6 +1,6 @@
 :root {
   --main-color: #16a34a;
-  --shadow-color: rgb(203, 203, 203);
+  --shadow-color: rgb(151, 149, 149);
   --background-color: rgb(230, 238, 246);
 }
 * {
@@ -119,9 +119,11 @@ input {
 }
 .edit div {
   background-color: var(--main-color);
-  color: white;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
+}
+.edit div p {
+  color: white;
 }
 .main-content {
   grid-area: main-content;
@@ -188,4 +190,8 @@ h4 {
 }
 .trending {
   grid-area: trending;
+}
+.project,
+.announcement-flex {
+  box-shadow: 5px 5px 10px var(--shadow-color);
 }
